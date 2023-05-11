@@ -1,37 +1,40 @@
 # NodeWebAPI
-APENAS UM TESTE
+WebAPI feita em NodeJS que consome uma API externa
 
 ##### Hopedado no Render.com
 https://nodewebapi.onrender.com/api/brasilApi/banco/104
-
 https://nodewebapi.onrender.com/api/brasilApi/bancos
 
-Programa NodeJs exemplo acessa uma webAPI externa.
 
-Peculiaridades do código:
+A saber:
 
 - Utiliza Swagger (swaager autogen) para gerenciar a documetacao
 - Axios para acessar api externa que retorna as insrtituições bancarias do país
 - Utiliza express no modelo MVC e Views com padrão EJS
-- Uma implemetacao DTO/ Business/ Service pode ser feita no futuro
+- contem um certificado sef-signed e o codigo (comentado neste versão)
 
 
 ##### NOTAS
 
 1 - Na pasta do projeto
-	npm init -y
+```
+npm init -y
+```
 
 2 - Instalacao basica:
-    -http    - Listner para ouvir porta
-    -express - Prove MVC
-    -debug   - Prove debug de codigo
-	npm install http express debug --save
 
+-http    - Listner para ouvir porta
+-express - Prove MVC
+-debug   - Prove debug de codigo
+```
+npm install http express debug --save
+```
 
 ##### Usando o gerador de aplicacao do express
 
+```
 1- npm install -g express-generator
-
+```
 Exemplo (cria uma aplicacao na Pasta NodeWebAPI):
 
 ```
