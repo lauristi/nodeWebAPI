@@ -23,9 +23,6 @@ npm init -y
 
 2 - Instalacao basica:
 
--http    - Listner para ouvir porta
--express - Prove MVC
--debug   - Prove debug de codigo
 ```
 npm install http express debug --save
 ```
